@@ -1,0 +1,296 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-bar {
+    display: flex;
+    width: auto;
+    padding: 0px 24px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 48px;
+}
+
+.button-fill,
+.button-stroke {
+    display: flex;
+    width: 200px;
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+}
+
+.button-fill {
+    background: linear-gradient(90deg, #38B6FF 0%, #0088D7 100%);
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.button-stroke {
+    border: 1px solid #9E9E9E;
+    background: #FFF;
+    color: #1E1E1E;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.nav-bar-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.blue {
+    color: #2FAEF8;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.hero-heading {
+    color: #000;
+    font-size: 48px;
+    font-weight: 700;
+    width: 690px;
+    height: 170px;
+}
+
+.hero-section {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-bottom: 104px;
+}
+
+.hero-para {
+    width: 678px;
+    color: #353535;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.text-home {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: -25px;
+}
+
+.blue-text {
+    color: #38B6FF;
+    /* Blue color for the "Digital Zen." text */
+}
+
+.hero-img {
+    max-width: 45%;
+    /* Set a maximum width */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+.nav-bar-logo {
+    max-width: auto;
+    height: 56px;
+}
+
+.pills {
+    position: absolute;
+    width: 177.382px;
+    height: 220.131px;
+    flex-shrink: 0;
+    left: -20px; /* Adjust the value to slightly cut from the left */
+    top: 65%; /* Adjust this value to position it vertically */
+    transform: translateY(-50%); /* Center it vertically */
+    z-index: -1; /* Ensure it is behind the text section */
+}
+
+.cards {
+    display: flex;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    width: 328px;
+    height: 256px;
+    padding: 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: linear-gradient(90deg, rgba(56, 182, 255, 0.05) 0%, rgba(0, 136, 215, 0.05) 100%);
+}
+
+.card-heading {
+    font-size: 24px;
+    font-weight: 600;
+    background: linear-gradient(90deg, #38B6FF 0%, #0088D7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 12px;
+}
+
+.heroNtext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.card-para {
+    color: #0C82C7;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.mission {
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 900px;
+    padding: 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    border-radius: 24px;
+    background: linear-gradient(90deg, rgba(56, 182, 255, 0.05) 0%, rgba(0, 136, 215, 0.05) 100%);
+}
+
+
+.mission-h {
+    font-family: Montserrat, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(90deg, #38B6FF 0%, #0088D7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0px;
+}
+
+.mission-desc {
+    width: 886px;
+    color: #0C82C7;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer {
+    margin-top: 104px;
+    display: flex;
+    width: auto;
+    height: 400px;
+    padding: 56px 80px 32px 80px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 24px 24px 0px 0px;
+    background: #0E1217;
+
+}
+
+.logo-links {
+    display: flex;
+justify-content: space-between;
+align-items: center;
+align-self: stretch;
+}
+
+.zen-icons {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+}
+
+.zen-logo {
+    color: #FFF;
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: 3.2px;
+margin: 0px;
+}
+
+.icons-logo {
+    display: flex;
+align-items: flex-start;
+gap: 8px;
+}
+
+.links-section {
+    display: flex;
+justify-content: center;
+align-items: flex-start;
+gap: 32px;
+}
+
+.link-title {
+    color: #FFF;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.link-text {
+    color: #FFF;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.line {
+    width:-webkit-fill-available;
+    height: 1px;
+    background: #FFF;
+
+}
+.line-copyright {
+    display: flex;
+width: -webkit-fill-available;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 16px;
+}
+
+.copyright-text {
+    color: #FFF;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
